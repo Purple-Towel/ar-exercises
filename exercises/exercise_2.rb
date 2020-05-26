@@ -12,5 +12,5 @@ end
 @store2 = Stores.where(id: 2)
 p @store1
 
-@store1.update(1, name: "Surrey")
+@store1.update(1, name: "Delta")
 p @store1
