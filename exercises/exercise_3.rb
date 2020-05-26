@@ -6,8 +6,8 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
-@store3 = Stores.where(id: 3)
+@store3 = Store.where(id: 3)
 
 @store3.destroy(3)
 p @store3
-puts Stores.count
+puts Store.count
