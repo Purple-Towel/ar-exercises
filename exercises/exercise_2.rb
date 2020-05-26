@@ -6,9 +6,9 @@ puts "----------"
 
 # Your code goes here ...
 
-@store1 = Store.where(id: 1)
-@store2 = Store.where(id: 2)
+@store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
 p @store1
 
-@store1.update(1, name: "Delta")
+@store1.update(name: "Delta")
 p @store1
